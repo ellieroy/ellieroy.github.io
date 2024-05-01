@@ -16,7 +16,7 @@ export default function Root() {
               <Link to={"/about"}>About</Link>
             </li>
             <li>
-              <Link to={"/portfolio"}>Portfolio</Link>
+              <Link to={"/examples"}>Portfolio</Link>
             </li>
             <li>
               <Link to={"/contact"}>Contact</Link>
