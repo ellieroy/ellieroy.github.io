@@ -1,4 +1,5 @@
 import { useRouteError } from "react-router-dom";
+import svg from "./assets/undraw_fixing_bugs_w7gi.svg";
 
 export default function ErrorPage() {
   const error = useRouteError();
@@ -9,8 +10,8 @@ export default function ErrorPage() {
       id="error-page"
       style={{
         height: "100vh",
-        alignContent: "center",
         display: "grid",
+        alignContent: "center",
         justifyContent: "center",
       }}
     >
@@ -19,11 +20,7 @@ export default function ErrorPage() {
       <p class="text-center">
         <i>{error.statusText || error.message}</i>
       </p>
-      <img
-        src={"src/assets/undraw_fixing_bugs_w7gi.svg"}
-        alt="error"
-        style={{ width: "450px", height: "400px" }}
-      />
+      <img src={svg} alt="error" style={{ width: "450px", height: "400px" }} />
     </div>
   );
 }
