@@ -1,7 +1,7 @@
 export default function Contact() {
   return (
     <>
-      <h1 class="xl text-center">Contact</h1>
+      <h1 class="xl text-center">Work in progress</h1>
     </>
   );
 }
